@@ -3,6 +3,8 @@
 ## 🚀 Overview
 This project is an autonomous **AI Agent** built with **n8n** that manages incoming emails intelligently. Unlike simple auto-responders, this agent uses **Google Gemini** to understand the context, checks my real-time availability via **Google Calendar**, and aligns responses with my personal objectives stored in **Google Sheets**.
 
+![Workflow Preview](workflow-preview.png)
+
 ## 🧠 Key Features
 * **Contextual Understanding:** Uses LLM (Gemini) to categorize emails into `Work` or `Personal`.
 * **Calendar Integration (Tool Calling):** Automatically checks Google Calendar for free slots before proposing meeting times.
@@ -38,6 +40,5 @@ You will need to set up the following credentials in n8n:
 ### 4. Update Node IDs
 * In the **"Goals"** node, select your created Google Sheet.
 * In the **"CA"** (Calendar) node, ensure the calendar ID matches your account.
-
 ---
-*Created by [Your Name]*
+*Created by [mahdi felfeli]*
